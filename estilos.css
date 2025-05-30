@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    min-height: 100vh;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('/imagem/shutterstock_1510009586-1-1_Easy-Resize.com_.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.fechar-caixa {
+    background-color: #e74c3c;
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+}
+
+.fechar-caixa:hover {
+    background-color: #c0392b;
+}
+
+.ticket {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.ticket h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.ticket-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ticket-info div {
+    flex-basis: 48%;
+    margin-bottom: 10px;
+}
+
+.relatorio-container {
+    background-color: rgba(44, 62, 80, 0.9);
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.relatorio-container h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #34495e;
+    padding-bottom: 10px;
+}
+
+.relatorio-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.relatorio-info div {
+    flex-basis: 48%;
+    margin-bottom: 15px;
+    background-color: rgba(52, 73, 94, 0.7);
+    padding: 12px;
+    border-radius: 4px;
+}
